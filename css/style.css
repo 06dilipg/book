@@ -1,0 +1,279 @@
+/*Gobal*/
+html,html{
+	height: 100%;
+}
+body{
+	background-color: #E8F5E9;
+    color: #777;
+    font: normal 15px, Arial, Helvetica, sans-serif;
+}
+p{
+	line-height:20px;
+	margin-bottom:20px;
+}
+h1 {
+		font-family: 'Crete Round', serif;
+		font-weight: bold;
+		color: #444;
+		font-size: 45px;
+		margin-bottom: 20px;
+}
+h2 {
+		font-weight: 300;
+		color: #444;
+		font-size: 25px;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 20px;
+}
+h3 {
+		font-size: 30px;
+		color: #444;
+		font-weight: bold;
+		text-transform: uppercase;
+		text-align: center;
+		margin-bottom: 20px;
+}
+a{
+	text-decoration: none;
+	color: #444;
+}
+a:hover{
+	color: #02b8dd;
+	text-decoration: none;
+}
+/*Header*/
+header{
+	height: 100px;
+	border-bottom: 1px solid black;
+	margin-bottom: 10px;
+	/*background-color: black;*/
+}
+header h1{
+    font-family: italic;
+    font-weight: bold;
+    font-size: 25px;
+    float: left;
+    margin-top: 50px;
+}
+header h1 .color {
+color: #02b8dd;
+}
+header nav{
+	float: right;
+	margin-top: 50px;
+}
+header nav li{
+	float: left;
+	/*list-style: none;*/
+	display: inline-block;
+
+}
+header nav li a{
+	color: #444;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 25px;
+	display: block;
+	margin-right: 25px;
+}
+/*End Header*/
+
+/*Banner*/
+  #banner{
+  	height: 350px;
+	padding-top: 1px;
+	background: #e8eced url('../images/hero.jpg') no-repeat center;
+  }
+  #banner h2 {
+  margin: 180px 0 40px 0;
+  color: orange;
+  margin-bottom: 2px;
+}
+.button-1 {
+	display: block;
+	text-align: center;
+	background: orange;
+	border-radius: 3px;
+	border:5px solid black;
+	color: #fff;
+	width: 180px;
+	height: 50px;
+	font-size: 20px;
+	line-height: 50px;
+	margin: 0 auto;
+}
+
+
+/*End Banner*/
+.hr{
+	border: 2px solid black;
+}
+/*features*/
+/*#features {
+	width: 100%;
+}*/
+/*#f1{
+	width: 30%;
+	border: 1px solid black;
+	margin-right: 2px;
+}
+#f2{
+	width: 30%;
+	border: 1px solid black;
+	margin-right: 2px;
+}
+#f3{
+	width: 30%;
+	border: 1px solid black;
+}*/
+   #features img{
+       display: block;
+       margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    /*width: 50%;*/
+   }
+   #features  h2{
+   	   text-shadow: 1px 1px 2px pink;
+   	  text-decoration: green wavy underline;
+   }
+   #features p{
+   	line-height: 25px;
+   	text-indent: left;
+   }
+/*End features*/
+
+/*Content*/
+#heading1{
+	
+	color: orange;
+	font-size: 30px;
+	float: left;
+	line-height: 30px;
+	border-left:15px solid orange;
+	padding-left: 5px;
+}
+
+#content p{
+	float: left;
+	line-height: 30px;
+}
+/*End Content*/
+ /*Catergory*/
+   #heading2{
+   	/*float: left;*/
+   	margin: 25px 0 40px 462px;
+    padding: 0 35px 10px 35px;
+   
+    color: orange;
+    cursor: pointer; 
+    font-size: 25px;
+    text-transform: uppercase;
+    border-bottom: 2px solid orange;
+    display: inline-block;
+    text-align: center;
+    /*list-style: none;*/
+   }
+
+   #cat{
+   width: 100%;
+	height: 100%;
+
+	overflow: hidden;
+	position: relative;
+     }
+     #cat>img{
+     	max-width: 100%;
+     }
+
+   .books{
+   	  width: 60%;
+   	  background-color: rgba(0,0,0,0.6);
+   	  top: 0;
+   	  right: 0;
+   	  bottom: 0;
+   	  left: 0;
+   	  position: absolute;
+   	  opacity: 0;
+   	  transition: all .5s ease;
+   }   
+   .b1:hover .books{
+	opacity: 1 ;
+	transition: all .5s ease;
+}
+.transition{
+	text-align: center;
+	/*margin-top: -10px;*/
+	transition: all .5s ease;
+}
+.transition p{
+	color: green;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 20px;
+}
+.books:hover .transition{
+	margin-top: 50px;
+	transition: all .5s ease;
+}
+ /*End Catergory*/
+/*Footer*/
+  #footer{
+  	color: green;
+  	background-color: black;
+
+  }
+  #footer h2{
+        font-size: 30px;
+        font-weight: bold;
+        padding-bottom: 5px;
+        border-bottom: 2px solid orange;
+        text-decoration: none;
+
+  }
+ #footer p{
+ 	     font-size: 20px;
+        font-weight: bold;
+ }
+ #footer ul li{
+ 	list-style: none;
+ 	text-align: center;
+ 	font-family: verdana;
+ 	font-size: 15px;
+ 	 padding-bottom: 15px;
+ 	 text-transform: uppercase;
+ }
+/*End Footer*/
+
+/*CONTACT FORM*/
+
+#contact h1,h2,h3 {
+    margin:0 0 35px 0;
+   /* font-family: 'Patua One', cursive;*/
+    text-transform: uppercase;
+    letter-spacing:1px;
+    /*color: white;*/
+}
+#contact p{
+    margin:0 0 25px;
+    font-size:18px;
+    line-height:1.6em;
+}
+#contact a{
+    color:#26a5d3;
+}
+#contact a:hover,a:focus{
+    text-decoration:none;
+    color:#26a5d3;
+}
+
+#contact{
+    background:#34495e;
+    color:#f4f4f4;
+    padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px;
+}
